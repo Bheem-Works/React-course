@@ -1,5 +1,5 @@
 
-function Button () {
+function Orange () {
     const Miso1= 'Eggs'
     const Miso2= 'Meat'
 
@@ -14,4 +14,4 @@ function Button () {
 );
 }
 
-export default Button
+export default Orange

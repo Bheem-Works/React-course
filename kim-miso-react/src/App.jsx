@@ -8,11 +8,13 @@
 // import Student from './Student.jsx'
 // import UserGreeting from'./UserGreeting.jsx'
   // import Center from './MisoPro.jsx'
-
+  import Rendering from './Renderin.jsx'
+  
 function App() {
   return (
     <>
 
+    <Rendering />
 
   </>
   );
