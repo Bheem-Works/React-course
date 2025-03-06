@@ -16,14 +16,22 @@
 
   // counter buttons 
   // App.jsx
-import React from 'react';
-import Counter from './Counter.jsx'; // Adjust the path if needed
+// import React from 'react';
+// import Counter from './Counter.jsx'; // Adjust the path if needed
+
+  // importing the character 
+  // import Character from './Character.jsx';
+  // importing the color changer
+
+  // import Color from './Color.jsx'
+  // import MisoEffect from './UseEffect.jsx';
+
+  import MisoTask from './ToDoList.jsx';
 
 const App = () => {
   return (
     <div>
-      <h1>Counter App</h1>
-      <Counter /> {/* Use the Counter component here */}
+      <MisoTask />
     </div>
   );
 };

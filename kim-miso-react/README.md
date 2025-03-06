@@ -1,12 +1,7 @@
-# React + Vite
+<!-- march - 05 updater function 
+it's a function passed as an Argument useState() usually allow for safe updates based on the previous updates and asynchronous functions 
+good practice to use the updater functions -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<!-- March - 05 Use effect 
+it's a function when we do other events it helps to make a side effect and rerender in the html page we can mount and un mount it also  -->
+<!-- we have also going to create a to-do-list app by using the to-do-list apps  -->
