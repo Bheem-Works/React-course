@@ -1,31 +1,33 @@
 import React, {useState} from 'react';
 
-function AddTask() {
-    const [aTask,aUpdatedTask] = useState ("");
-    const [bTask,addBtask] = useState ([]);
-    function changeInput (event) {
-        aUpdatedTask(event.target.value);
-        
+function MisoList() {
+    // creating a varaibles to store the arrays and the inputs  
+    const [aTask,setATasks] = useState("");
+    const [bTask,setBTasks] = useState([]);
+
+    // now input function function to take a input value 
+    function inputChange(e) {
+        setATasks(e.target.value);
     }
-    function addTask() {
+    // The Add function 
+    function addButton() {
         if(aTask.trim() !== "") {
-            addBtask((t)=> [...t,aTask]);
-            aUpdatedTask("");
+            setBTasks ((t)=> [...t,aTask]);
+            setATasks("");
         }
     }
-    return(
-        <div>
-            <h1>Adding list </h1>
-            <input type="text" onChange={changeInput}  value={aTask}/>
-            <button onClick={addTask}>AddTask</button>
-            {/* <p>{aTask}</p> */}
+    return (<div>
+        <h1>Miso List</h1>
+        <input type="text" value={aTask} onChange={inputChange} />
+        <button onClick={addButton}>Miso Add</button>
 
-            <ul>
-                {bTask.map((task,index)=>(
-                    <li key={index}>{task}</li>
-))}
-            </ul>
-        </div>
-    );
+        <ul>
+    {bTask.map((item,index)=>(
+        <li key={index}>{item}</li>
+    ))}    
+    </ul>
+
+    </div>
+);
 }
-export default AddTask;
+export default MisoList

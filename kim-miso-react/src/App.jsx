@@ -26,12 +26,15 @@
   // import Color from './Color.jsx'
   // import MisoEffect from './UseEffect.jsx';
 
-  import AddTask from './ToDoList.jsx';
+  // import MisoList from './ToDoList.jsx';
+  import DigitalClock from './DigitalClock.jsx'
+
+  
 
 const App = () => {
   return (
     <div>
-      <AddTask />
+      <DigitalClock />
     </div>
   );
 };
