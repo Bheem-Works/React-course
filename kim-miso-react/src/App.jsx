@@ -26,12 +26,12 @@
   // import Color from './Color.jsx'
   // import MisoEffect from './UseEffect.jsx';
 
-  import MisoTask from './ToDoList.jsx';
+  import AddTask from './ToDoList.jsx';
 
 const App = () => {
   return (
     <div>
-      <MisoTask />
+      <AddTask />
     </div>
   );
 };
