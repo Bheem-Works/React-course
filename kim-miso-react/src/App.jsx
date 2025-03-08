@@ -27,14 +27,14 @@
   // import MisoEffect from './UseEffect.jsx';
 
   // import MisoList from './ToDoList.jsx';
-  import DigitalClock from './DigitalClock.jsx'
-
-  
+  // import DigitalClock from './DigitalClock.jsx'
+  // import UseRef from './UseRef.jsx';
+  import TimerClock from './TimerClock.jsx'
 
 const App = () => {
   return (
     <div>
-      <DigitalClock />
+      <TimerClock />
     </div>
   );
 };
